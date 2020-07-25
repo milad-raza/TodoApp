@@ -1,0 +1,76 @@
+.body{
+    background-color: rgb(37, 34, 34);
+}
+.todo{
+    width: 70%;
+    border: 2px solid greenyellow;
+    background-color: honeydew;
+    border-radius: 10px;
+}
+.h1{
+    color: indigo;
+}
+.input{
+    border: none;
+    border-bottom: 3px solid olive;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.mar1{
+    margin-left: 10px;
+}
+.mar2{
+    margin-left: 10px;
+}
+.a{
+    position: absolute;
+    right: 300px;
+}
+.aa{
+    position: absolute;
+    right: 200px;
+}
+.z{
+    text-align: center;
+}
+
+@media only screen and (max-width:426px){
+    .todo{
+        width: 100%;
+    }
+    .input{
+        margin-right: 136px;
+    }
+    .mar1{
+        position: relative;
+        top: -32px;
+        left: 86px;
+        margin-left: 1px;
+        font-size: small !important;
+  
+    }
+    .mar2{
+        position: relative;
+        top: -32px;
+        left: 86px;
+        margin-left: 1px;
+        font-size: small !important;
+    }
+    .width2{
+        font-size: small !important;
+    }
+    .a{
+        position: absolute;
+        right: 70px;
+    }
+    .aa{
+        position: absolute;
+        right: 4px;
+    }
+    .z{
+       
+        text-align: start;
+    }
+
+}
